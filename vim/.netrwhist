@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/atlas/.config/vim'
+let g:netrw_dirhist_8='/home/atlas/.config/vim/colors'
+let g:netrw_dirhist_7='/home/atlas/.config/vim'
+let g:netrw_dirhist_6='/home/atlas/.config/vim/colors'
+let g:netrw_dirhist_5='/home/atlas/.config/vim'
+let g:netrw_dirhist_4='/home/atlas/.config'
+let g:netrw_dirhist_3='/home/atlas/.config/vim'
+let g:netrw_dirhist_2='/home/atlas/.config'
+let g:netrw_dirhist_1='/home/atlas'

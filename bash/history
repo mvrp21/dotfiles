@@ -1,0 +1,42 @@
+ls
+ls -la
+npm 
+ls -la
+clear
+ls -la
+rm -rf .npm/
+vim .config/bash/profile 
+ls
+cd .config/bash/
+ls
+vim profile 
+ls
+cat logout 
+rm logout 
+ls 
+rm history 
+ls -la
+echo $XDG_STATE_HOME/
+mkdir $XDG_STATE_HOME/bash/
+touch $XDG_STATE_HOME/bash/history
+ls -la
+echo $HISTFILE
+vim .e
+vim environment 
+vim profile 
+sudo vim /etc/profile
+ls
+vim environment 
+ls
+ls
+cd
+ls -la
+npm -v
+ls ~
+ls la
+ls -la
+npm
+ls -la
+rm -rf .npm/
+vim .config/bash/environment 
+Hyprland 
