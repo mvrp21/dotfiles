@@ -17,16 +17,9 @@
         "memory",
         "custom/diskfree",
         "clock",
-        "wireplumber"
+        "wireplumber",
+        "custom/exit"
     ],
-    "wlr/taskbar": {
-        "format": "{icon}",
-        "on-click": "activate",
-        "on-click-right": "fullscreen",
-        "icon-theme": "WhiteSur",
-        "icon-size": 25,
-        "tooltip-format": "{title}"
-    },
     "hyprland/workspaces": {
         "on-click": "activate",
         "disable-scroll": true,
@@ -34,33 +27,24 @@
         "warp-on-scroll": false,
         "format": "{name}: {icon}",
         "format-icons": {
-            "default": "",
             "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            //"active": "󱓻",
-            //"urgent": "󱓻"
+            "2": "",
+            "3": "",
+            "4": "󰴒",
+            "5": "",
+            "6": "󰙯",
+            "7": "󰎈",
+            "urgent": "",
+            "default": ""
         },
-        "persistent_workspaces": {
-            "1": [],
-            "2": [],
-            "3": [],
-            "4": [],
-            "5": [],
-            "6": [],
-            "7": [],
-            "8": [],
-            "9": []
-        }
+        "persistent-workspaces": { }
     },
     "cpu": {
-        "format": "⧯ CPU: {usage}%" 
+        "format": " {usage}%" 
     },
     "memory": {
         "interval": 5,
-        "format": "󰍛 Mem: {}%",
+        "format": " {}%",
         "max-length": 15
     },
     "tray": {
@@ -69,7 +53,7 @@
     "clock": {
         "tooltip-format": "{calendar}",
         "format-alt": "  {:%a, %b %d %Y}",
-        "format": "⏱ {:%Y/%m/%d | %H:%M}"
+        "format": "  {:%Y/%m/%d | %H:%M}"
     },
     "network": {
         "format-wifi" : "{icon} {ipaddr}/{cidr}",
@@ -86,7 +70,7 @@
         "nospacing": 1,
     },
     "wireplumber": {
-        "format": "{volume}% {icon}",
+        "format": "{icon} {volume}%",
         "format-bluetooth": "󰂰",
         "nospacing": 1,
         "tooltip-format": "Volume : {volume}%",
@@ -104,16 +88,22 @@
         "on-click": "rofi -show drun &"
     },
     "custom/kernel": {
-        "format": "❤ {}",
+        "format": " {}",
         "interval": 3600,
         "tooltip-format": "Linux Kernel Version: {}",
         "max-length": 20,
         "exec": "uname -r"
     },
     "custom/diskfree": {
-        "format": "🖴 Disk: {}",
+        "format": "🖴 {}",
         "interval": 300,
         "max-length": 20,
         "exec": "df --total -hl | grep 'nvme1n1p2' | awk '{print $5}'"
-    }
+    },
+    "custom/exit": {
+        "format": "",
+        "on-click": "wlogout -b 5",
+        "on-click-right": "hyprlock",
+        "tooltip-format": "Left: Power menu\nRight: Lock screen"
+     },
 }
