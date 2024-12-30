@@ -40,7 +40,7 @@
         "persistent-workspaces": { }
     },
     "cpu": {
-        "format": " {usage}%" 
+        "format": "  {usage}%" 
     },
     "memory": {
         "interval": 5,
@@ -58,7 +58,7 @@
     "network": {
         "format-wifi" : "{icon} {ipaddr}/{cidr}",
         "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
-        "format-ethernet": "󰀂 {ipaddr}/{cidr}",
+        "format-ethernet": "󰀂  {ipaddr}/{cidr}",
         "format-alt" : "󱛇",
         "format-disconnected" : "󰖪",
         "tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",

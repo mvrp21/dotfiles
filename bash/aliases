@@ -3,3 +3,44 @@
 #
 alias gpg='gpg2 --homedir "$XDG_CONFIG_HOME"/gnupg'
 alias gpg2='gpg2 --homedir "$XDG_CONFIG_HOME"/gnupg'
+
+# ==================== COLORS ===================== #
+alias ls='ls -v --color=auto'
+alias grep='grep --color=auto'
+alias diff='diff --color=auto'
+alias ip='ip --color'
+
+# ====================== LS ======================= #
+alias l='ls'
+alias sl='ls -hog'
+alias la='ls -A'
+alias ll='ls -Al'
+alias lal='ls -Al'
+alias lh='ls -Alh'
+alias s='ls -d .* || echo "no hidden files"'
+
+# =================== SHORTCUTS =================== #
+# There are problems with this, but they're no concern of mine
+function - {
+  cd -
+}
+
+alias cdd='cd ~/Downloads/'
+alias cdm='cd ~/Music/'
+alias cds='cd ~/Stuff/'
+alias cdb='cd ~/Stuff/books/'
+alias cdp='cd ~/Stuff/projects/'
+
+# ==================== STOOPID ==================== #
+alias dc='cd'
+alias vim='nvim'
+alias vvim='nvim'
+alias vvi='nvim'
+alias vii='nvim'
+alias v='nvim'
+alias vi='nvim'
+alias miv='nvim'
+alias iv='nvim'
+alias ivm='nvim'
+alias vmi='nvim'
+alias c='clikan'

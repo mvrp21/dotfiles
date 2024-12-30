@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/atlas/dotfiles/bash'
 let g:netrw_dirhist_5='/home/atlas/dotfiles/rofi'
 let g:netrw_dirhist_4='/home/atlas/dotfiles'
 let g:netrw_dirhist_3='/home/atlas/dotfiles/hypr'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_0='/home/atlas/.config/waybar'
 let g:netrw_dirhist_9='/home/atlas/.config'
 let g:netrw_dirhist_8='/home/atlas'
 let g:netrw_dirhist_7='/home/atlas/.local'
-let g:netrw_dirhist_6='/home/atlas/.local/share'
