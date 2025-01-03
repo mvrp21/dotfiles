@@ -28,6 +28,7 @@ window#waybar.hidden {
 #wireplumber,
 #custom-exit,
 #custom-logo,
+#custom-exit,
 #cpu,
 #memory,
 #tray,
@@ -56,11 +57,7 @@ window#waybar.hidden {
     font-weight: bold;
 }
 
-#cpu {
-    color: @color11;
-    font-weight: bold;
-}
-#memory {
+#cpu, #memory, #custom-diskfree {
     color: @color11;
     font-weight: bold;
 }
@@ -136,12 +133,7 @@ window#waybar.hidden {
     border-left: none;
 }
 
-#clock {
-    color: @color12;
-    font-weight: bold;
-}
-
-#wireplumber {
+#clock, #wireplumber, #custom-exit {
     color: @color12;
     font-weight: bold;
 }

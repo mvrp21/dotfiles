@@ -25,19 +25,19 @@ button:hover {
 }
 
 #lock {
-    background-image: image(url("/home/atlas/.config/wlogout/icons/lock.png"));
+    background-image: image(url("/home/marcusvrp/.config/wlogout/icons/lock.png"));
     background-size: 70%;
 }
 
 #logout {
-    background-image: image(url("/home/atlas/.config/wlogout/icons/logout.png"));
+    background-image: image(url("/home/marcusvrp/.config/wlogout/icons/logout.png"));
 }
 #suspend {
-    background-image: image(url("/home/atlas/.config/wlogout/icons/sleep.png"));
+    background-image: image(url("/home/marcusvrp/.config/wlogout/icons/sleep.png"));
 } 
 #shutdown {
-    background-image: image(url("/home/atlas/.config/wlogout/icons/power.png"));
+    background-image: image(url("/home/marcusvrp/.config/wlogout/icons/power.png"));
 }
 #reboot {
-    background-image: image(url("/home/atlas/.config/wlogout/icons/restart.png"));
+    background-image: image(url("/home/marcusvrp/.config/wlogout/icons/restart.png"));
 }

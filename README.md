@@ -15,7 +15,7 @@ These are my dotfiles for the following programs:
 Setting up the dotfiles themselves is easy enough:
 
 ```bash
-./setup.sh # Does everything
+stow . # Does everything
 ```
 
 Installing these things is outside of this project's goals, as well as removing any existing configuration in case it is there.
@@ -44,3 +44,5 @@ export XDG_DATA_HOME="$HOME/.local/share"
 Supposedly `bash` should now look for its files on `$XDG_<something>` too, but no matter where I put the files nor how I named them they simply were not sourced. So this is a kind of workaround until I get that done right.
 
 I'm still not sure if this will work (nor how to make it work if it doesn't) on NixOS. Started using that thing literally yesterday.
+
+Update: for now just using the `/etc/bashrc.local` file works fine.
